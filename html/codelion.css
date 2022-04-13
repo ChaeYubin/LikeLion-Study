@@ -1,17 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Jua&family=Noto+Serif+KR&display=swap');
-* {
-    font-family: 'Noto Serif KR', serif;
+
+@font-face {
+    font-family: 'LeeSeoyun';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
-body,h1,h2 {
+@font-face {
+    font-family: 'LAB디지털';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/LAB디지털.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'LeeSeoyun';
+}
+
+body {
+    min-width: fit-content;
+    background-color: #d8e2dc;
     margin:0px;
     padding:0px;
 }
 
 
-body {
-    min-width: fit-content;
+h1,h2 {
+    margin:0px;
+    padding:0px;
 }
+
 
 h1 {
     font-size:36px;
@@ -19,9 +38,10 @@ h1 {
 
 
 h2 {
-    font-size:20px;
+    font-size:23px;
     color:#282828;
     font-weight: lighter;
+    font-weight: bold;
     margin-bottom: 16px;
     border-bottom: 1px solid #ebebeb;
     padding-bottom: 5px;
@@ -29,7 +49,7 @@ h2 {
 
 .top-box {
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .name-text {
@@ -39,8 +59,8 @@ h2 {
 }
 
 .about-me-text {
-    font-size:10px;
-    line-height: 16px;
+    font-size: 17px;
+    line-height: 20px;
 }
 
 .mainbox {
@@ -55,10 +75,10 @@ h2 {
 }
 
 .title-box {
-    padding-top: 50px;
+    padding-top: 65px;
     text-align: left;
     float: right;
-    padding-right: 80px;
+    padding-right: 110px;
 }
 
 section {
@@ -70,49 +90,53 @@ section {
 }
 
 .title-text {
-    font-size:11px;
-    font-weight: bold;
+    font-size: 19px;
     color: #282828;
-    float: left;
-}
-
-.year-text{
-    font-size:11px;
-    font-weight: bold;
-    color: #282828;
-    float: right;
 }
 
 .desc-text {
-    font-size: 9px;
-}
-
-.desc-subtext {
-    font-size: 9px;
+    font-size: 17px;
     color:#282828;
-    padding-left:16px;
+    padding-left: 30px;
+    margin-bottom: 30px;
 }
 
 .sns-img {
-    width:12px;
-    height:12px;
+    padding-top: 12px;
+    padding-left: 10px;
+    width:20px;
+    height:20px;
 }
 
 .sns-wrap {
     text-align: right;
+    float: left;
 }
 
 .me-img {
     float: left;
     width: 200px;
-    padding-left: 0px;
+    padding-left: 5px;
 }
 
-footer {
+.top {
     margin-bottom: 50px;
     text-align: center;
-    background-color: #F9B296;
+    background-color: #ffc5c5;
     padding: 1px;
     font-size: 15px;
     color: #000000;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    background-color: #ffc5c5;
+    padding: 1px;
+    font-size: 15px;
+    color: #000000;
+}
+
+.name {
+    float: left;
 }
