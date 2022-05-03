@@ -7,8 +7,8 @@ keyword = input("검색할 키워드를 입력해주세요: ")
 page = int(input("크롤링할 페이지를 입력해주세요. ex) 1(숫자만 입력): "))
 print("크롤링할 페이지: ", page, "페이지\n")
 
-# '날씨' 검색 시 나오는 URL
-# https://search.naver.com/search.naver?sm=tab_hty.top&where=news&query=%EB%82%A0%EC%94%A8&oquery=%EB%A7%9B%EC%A7%91&tqi=hFZM2sprvxZsstEEywwssssstws-284052&nso=so%3Ar%2Cp%3Aall%2Ca%3Aall&mynews=0&office_section_code=0&office_type=0&pd=0&photo=0&sort=0
+# 네이버 검색-뉴스 탭에서 '날씨' 검색 시 나오는 URL
+# https://search.naver.com/search.naver?where=news&sm=tab_jum&query=%EB%82%A0%EC%94%A8
 # https://search.naver.com/search.naver?where=news&sm=tab_pge&query=%EB%82%A0%EC%94%A8&sort=0&photo=0&field=0&pd=0&ds=&de=&cluster_rank=21&mynews=0&office_type=0&office_section_code=0&news_office_checked=&nso=so:r,p:all,a:all&start=11
 # query=날씨 -> query라는 인자에 검색어가 들어감
 # start=11 -> start라는 인자에 몇번째 기사를 보여줄 지 들어감
