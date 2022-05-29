@@ -1,0 +1,44 @@
+.ball-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.ball {
+    width: 80px;
+    height: 80px;
+    color: black;
+    border-radius: 50%;
+    text-align: center;  /* 텍스트 가로정렬 */
+    line-height: 80px; /* 세로정렬 */
+    margin: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 5px black;
+    box-shadow: 0 0 8px grey;
+}
+
+#lotto-1 {
+    background-color: rgb(255, 212, 128);
+}
+
+#lotto-2 {
+    background-color: rgb(128, 229, 255);
+}
+
+#lotto-3 {
+    background-color: rgb(255, 102, 102);
+}
+
+#lotto-4 {
+    background-color: rgb(128, 128, 128);
+}
+
+#lotto-5 {
+    background-color: rgb(179, 255, 179);
+}
+
+#lotto-6 {
+    background-color: rgb(204, 204, 204);
+}
+
