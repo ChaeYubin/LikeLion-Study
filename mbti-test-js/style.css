@@ -21,7 +21,18 @@ article {
   margin: 0 auto;
 }
 
-kakao_ad {
+.kakao_ad {
   width: 320px;
   margin: 0 auto;
+}
+
+.banner {
+  display: flex;
+  justify-content: center; /* a의 자식인 img 태그를 가운데 정렬 */
+  width: 300px;
+  margin: 0 auto;
+}
+
+.banner-img {
+  width: 300px;
 }
