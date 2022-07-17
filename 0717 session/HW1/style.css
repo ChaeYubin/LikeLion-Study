@@ -1,0 +1,48 @@
+#title {
+  text-align: center;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+}
+
+.result {
+  display: none;
+}
+
+#question {
+  text-align: center;
+}
+
+.btn-container {
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+}
+
+h2 {
+  text-align: center;
+}
+
+#question1 {
+  display: none;
+}
+
+#question2 {
+  display: none;
+}
+
+#question3 {
+  display: none;
+}
+
+#question4 {
+  display: none;
+}
+
+.result {
+  text-align: center;
+}

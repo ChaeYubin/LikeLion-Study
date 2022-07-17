@@ -1,10 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MBTI test</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
-  <body></body>
+  <body>
+    <article class="start">
+      <h1 id="title">당신의 MBTI는?</h1>
+      <button type="button" onclick="start()">테스트 시작하기</button>
+    </article>
+    <article class="question">
+      <div id="question1">
+        <h2>문제1</h2>
+        <div class="btn-container">
+          <button id="A" type="button" class="btn" onclick="go2('btn1')">
+            E
+          </button>
+          <button id="B" type="button" class="btn" onclick="go2('btn2')">
+            I
+          </button>
+        </div>
+      </div>
+      <div id="question2">
+        <h2>문제2</h2>
+        <div class="btn-container">
+          <button id="A" type="button" class="btn" onclick="go3('btn1')">
+            S
+          </button>
+          <button id="B" type="button" class="btn" onclick="go3('btn2')">
+            N
+          </button>
+        </div>
+      </div>
+      <div id="question3">
+        <h2>문제3</h2>
+        <div class="btn-container">
+          <button id="A" type="button" class="btn" onclick="go4('btn1')">
+            T
+          </button>
+          <button id="B" type="button" class="btn" onclick="go4('btn2')">
+            F
+          </button>
+        </div>
+      </div>
+      <div id="question4">
+        <h2>문제4</h2>
+        <div class="btn-container">
+          <button id="A" type="button" class="btn" onclick="result('btn1')">
+            J
+          </button>
+          <button id="B" type="button" class="btn" onclick="result('btn2')">
+            P
+          </button>
+        </div>
+      </div>
+    </article>
+    <article class="result">
+      <h1 id="title">당신의 MBTI는</h1>
+      <h1 id="mbti_result">ㅑㅑㅑㅑ입니다.</h1>
+    </article>
+    <script src="./index.js"></script>
+  </body>
 </html>
